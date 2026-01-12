@@ -2,10 +2,7 @@
 
 * Roberta Model from ONNX
 
-## Update Requirements
+## Installation
 
-* Delete requirements.txt
-* Create .venv
-* pip install -r dev-requirements.in
-* pip-compile requirements.in
-* pip install -r requirements.txt
+* pyenv local 3.12.10
+* uv sync

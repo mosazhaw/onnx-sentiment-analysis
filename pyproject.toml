@@ -1,0 +1,16 @@
+[project]
+name = "onnx-sentiment-analysis"
+version = "0.1.0"
+description = "ONNX-based sentiment analysis web application"
+readme = "README.md"
+requires-python = "==3.12.10"
+dependencies = [
+    "flask==3.1.0",
+    "onnxruntime==1.20.1",
+    "transformers==4.46.3",
+    "numpy==1.26.4",
+]
+
+[dependency-groups]
+dev = []
+
