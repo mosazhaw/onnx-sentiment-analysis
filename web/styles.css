@@ -1,0 +1,48 @@
+﻿:root {
+    --page-bg: #f6f8fb;
+    --card-border: #e6e9ef;
+    --bar-bg: #e9ecef;
+    --pos-color: #28a745;
+    --neg-color: #dc3545;
+}
+
+body {
+    background: var(--page-bg);
+    color: #1f2a37;
+}
+
+.page {
+    min-height: 100vh;
+}
+
+.card {
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.sentiment-bar {
+    display: flex;
+    height: 14px;
+    background: var(--bar-bg);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.sentiment-positive {
+    background: var(--pos-color);
+    transition: width 0.3s ease;
+}
+
+.sentiment-negative {
+    background: var(--neg-color);
+    transition: width 0.3s ease;
+}
+
+.sentiment-badges .badge {
+    min-width: 72px;
+    text-align: center;
+}
